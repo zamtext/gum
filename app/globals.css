@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-dot-matrix {
+    background-image: radial-gradient(#4f46e5 1px, transparent 1px);
+    background-size: 48px 48px;
+  }
+  
+  .glow-indigo {
+    box-shadow: 0 0 15px rgba(99, 102, 241, 0.5);
+  }
+
+  .glow-indigo-lg {
+    box-shadow: 0 0 25px rgba(99, 102, 241, 0.4);
+  }
+
+  .glow-emerald {
+    box-shadow: 0 0 8px rgba(16, 185, 129, 0.8);
+  }
+
+  .glow-rose {
+    box-shadow: 0 0 15px rgba(244, 63, 94, 0.4);
+  }
+
+  .glow-amber {
+    box-shadow: 0 0 15px rgba(245, 158, 11, 0.4);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.7; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.03); }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 3s ease-in-out infinite;
+}

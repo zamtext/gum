@@ -1,0 +1,6 @@
+{
+  "name": "2D Multiplayer Space Combat",
+  "description": "A real-time 2D multiplayer space combat arena with WebRTC peer-to-peer networking, ready for free hosting on GitHub Pages.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
